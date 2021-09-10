@@ -6,6 +6,11 @@ import HelloWorld from "./scene/helloWorld.js";
 import Level from "./scene/level.js";
 
 
+if (module.hot) {
+  module.hot.accept()
+}
+
+
 k.loadSprite('tiles', './monochrome_tilemap.png', {
   sliceX: 20,
   sliceY: 20,
