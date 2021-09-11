@@ -4,8 +4,7 @@
 
 
 const instance = kaboom({
-  width: 320,
-  height: 240,
+  fullscreen: true,
   scale: 2.5,
 })
 

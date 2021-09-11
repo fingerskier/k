@@ -32,7 +32,7 @@ window.addEventListener('load', event=>{
 
 
   k.scene('main', ()=>{
-    k.go('components')
+    k.go('level')
   })
 
   k.start('main')

@@ -27,7 +27,7 @@ export default function Level() {
       animSpeed: 0.1,
       frame: 300,
     }),
-    k.pos(0.5*k.width(), 0.5*k.height()),
+    k.pos(0.5*k.width(), 5),
     k.origin('center'),
     k.scale(1),
     k.body(),
